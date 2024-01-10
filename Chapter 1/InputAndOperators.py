@@ -21,9 +21,9 @@
 
 # Take Input Of Two Numbers And Sum It 
 
-first_num = int(input("Enter The First Number : "))
-second_num = int(input("Enter The Second Number : "))
-sum = first_num + second_num
+# first_num = int(input("Enter The First Number : "))
+# second_num = int(input("Enter The Second Number : "))
+# sum = first_num + second_num
 
 # print("The Sum Of Two Number's Is : " , sum)
 
@@ -141,3 +141,51 @@ print("Not Operator Value :", not(stmt1))       # False
 
 
 #---------------Identity Operator--------------------------
+'''
+        Operator's                  Name
+
+            is                  return "true", if the both variable are the same object .
+            is not              return "true", of both the variable are not the same object .
+    
+        Example : 
+'''
+
+# x = 6
+# y = 6
+
+# print("If X is Y ", x is y)
+# print("If X is not Y ", x is not y)
+
+
+
+#---------------Membership Operator--------------------------
+'''
+        Operator            Names
+
+        in              return true if a sequence with the specified value "in" the object .
+        not in          return true if a sequence with the specified value is "not in" the object .
+
+    Examples :
+'''
+
+# friends_name = ["Afzal", "Faizal", "Rabbani", "Haider", "Firoz"]
+# print("Is Friend Name Is Present In The Sequence : ", "Faizal" in friends_name)
+# print("Friend That Are Not Present In The Sequence : ", "Faizal" not in friends_name)
+
+
+
+#---------------Bitwise Operator--------------------------
+'''         Operator                Name
+               '&'                   "and"
+               '|'                   "Or"
+               '^'                   "XOR"
+               '<<'                  "Left Shift"
+               '>>'                  "Right Shift"
+               '~'                   "Not"
+'''
+
+a = 5
+b = 3
+print("a and(&) b",a & b)
+print("a or(|) b",a | b)
+print("a XOR(^) b",a ^ b)
